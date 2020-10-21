@@ -1,0 +1,8 @@
+{
+    "staticPath": "public",
+    "watchDirs": ["src"],
+    "webpack": {
+        "configPath": "webpack.config.js"
+    },
+    "disabledPlugins": false
+}

@@ -2,19 +2,32 @@
   "name": "poke-maq",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
   "dependencies": {
+    "@callstack/react-theme-provider": "^2.1.0",
+    "@fluentui/react": "^7.147.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "flexbox-react": "^4.4.0",
+    "gulp-livereload": "^4.0.2",
+    "prop-types": "^15.7.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-scripts": "3.4.4"
+    "react-scripts": "3.4.4",
+    "react-test-renderer": "^17.0.0",
+    "st": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +43,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/helper-call-delegate": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "gulp": "^3.*",
+    "hygen-cra": "^1.0.0",
+    "react-cosmos": "^5.5.0",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.1.0"
   }
 }

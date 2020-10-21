@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image: default 1`] = `
+<div>
+  edit me: at components/Image/Image.js
+</div>
+`;

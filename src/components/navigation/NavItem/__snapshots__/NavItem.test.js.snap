@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem: default 1`] = `
+<a
+  href="#"
+>
+  <div
+    className="sc-bdVaJa cXgeQK"
+    style={
+      Object {
+        "padding": "1em",
+      }
+    }
+  >
+    <p>
+      NavItem
+    </p>
+  </div>
+</a>
+`;
